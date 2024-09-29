@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+#toggle {
+  width: 80vmin;
+  height: 80vmin;
+  cursor: pointer;
+  /* -webkit-user-drag: none; */
+  -webkit-user-select: none;
+  user-select: none;
+}
